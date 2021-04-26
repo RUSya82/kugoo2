@@ -48,7 +48,7 @@ try {
     $mail->setFrom('im.rusalim.ne@gmail.com', 'Электросамокаты Kugoo Jilong'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('salexandervl@gmail.com');
+    //$mail->addAddress('salexandervl@gmail.com');
     $mail->addAddress('mail-spam2012@yandex.ru');
 
 // Отправка сообщения
