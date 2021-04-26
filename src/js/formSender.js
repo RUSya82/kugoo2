@@ -183,9 +183,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Button that triggered the modal
                 const button = event.relatedTarget;
-                // Extract info from data-* attributes
-                const recipient = button.getAttribute('data-whatever');
 
+                // Extract info from data-* attributes
                 modalHeaderSubtitle.textContent = button.dataset.subtitle;
                 modalPrice.textContent = button.dataset.price;
                 modalImage.setAttribute('src', button.dataset.image);
